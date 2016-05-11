@@ -1,0 +1,46 @@
+<div class="sidebar-nav" style="position: fixed;">
+    <div class="row sidebar-header-div" >
+        <div class="col-md-6 sidebar-header-col" style="border-right: 1px solid #D3D3D3;">
+            <span style="color: gray; font-size: 14px"><i class="fa fa-flag"></i>&nbsp;机构</span>
+            <div style="padding-top: 10px;">
+                <span class="label label-primary" style="font-size: 12px">欣欣英语</span>
+            </div>
+        </div>
+        <div class="col-md-6 sidebar-header-col">
+            <span style="color: gray; font-size: 14px"><i class="fa fa-user"></i>&nbsp;角色</span>
+            <div style="padding-top: 10px;">
+                <span class="label label-success" style="font-size: 12px">
+                    教师
+                </span>
+            </div>
+        </div>
+    </div>
+    <ul>
+        <li><a href="#" class="nav-header" data-target=".dashboard-menu" data-toggle="collapse"><i class="fa fa-tachometer"></i>教学管理后台</a></li>
+        <li>
+            <ul class="dashboard-menu nav nav-list collapse in">
+                <li {% if page == "summary" %}class="active"{% endif %}><a href="/summary/"><span class="fa fa-caret-right"></span>总览</a></li>
+                <li {% if page == "course" %}class="active"{% endif %}><a href="/course/"><span class="fa fa-caret-right"></span>课程管理</a></li>
+                <li {% if page == "class" %}class="active"{% endif %}><a href="/class/"><span class="fa fa-caret-right"></span>班级管理</a></li>
+                <li {% if page == "student" %}class="active"{% endif %}><a href="/student/"><span class="fa fa-caret-right"></span>学生管理</a></li>
+                <li {% if page == "teacher" %}class="active"{% endif %}><a href="/teacher/"><span class="fa fa-caret-right"></span>教师管理</a></li>
+            </ul>
+        </li>
+        <li><a href="#" class="nav-header" data-target=".dashboard-services" data-toggle="collapse"><i class="fa fa-tachometer"></i>Services</a></li>
+        <li>
+            <ul class="dashboard-services nav nav-list collapse">
+                <li {% if page == "find_free_ip" %}class="active"{% endif %}><a href="/easydns/services/find_free_ip/"><span class="fa fa-caret-right"></span>Find Free IP</a></li>
+            </ul>
+        </li>
+        <li><a href="mailto:DL-eBay-EasyDNS@ebay.com?Subject=EasyDNS Feedback" class="nav-header"><i class="fa fa-fw fa-envelope"></i> Feedback</a></li>
+    </ul>
+    <div class="money-div" style="display: none">
+        <table>
+            <tr>
+                <td><i class="fa fa-usd fa-2x animated infinite swing" style="color: gold"></i></td>
+                <td>&nbsp;&nbsp;<span class="animated rubberBand" style="font-size: 20px; color: gold">19800</span>&nbsp;&nbsp;</td>
+                <td><a data-toggle="tooltip"  data-original-title="The average manual process time is about 2 hours. If hourly work pay is 50 dollars, this tool has already saved such cost"><i class="fa fa-question-circle fa-lg"></i></a></td>
+            </tr>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar-team {
+    padding: 10px 10px 10px 10px;
+}
+
+.sidebar-header-div {
+    margin: 10px 0 10px 0;
+    background-color: #ffffff;
+    height: 80px;
+    box-shadow: 1px 1px 1px #D3D3D3
+}
+
+.sidebar-header-col {
+    height: 80px;
+    text-align: center;
+    padding-top: 12px;
+    border-top: 1px solid lightgrey;
+
+}
+
+.footer-div {
+    background-color: white;
+    border-top: 1px solid lightgrey;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+}
